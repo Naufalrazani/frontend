@@ -20,7 +20,7 @@ const MENU_ITEMS = [
 ];
 
 const BADGES = ["Consistency Star", "Quiz Master"];
-const TOPICS = ["iOS", "Android", "Web"];
+const TOPICS = ["iOS", "Android", "Web", "Game"];
 
 const Sidebar = () => {
   return (
@@ -48,8 +48,8 @@ const Sidebar = () => {
 
         {/* Streak */}
         <div className="mb-4">
-          <p className="flex items-center gap-1 font-medium text-primary-400">
-            Streak <BsFire />
+          <p className="flex items-center gap-1 font-medium text-primary-600">
+            Streak <BsFire className="text-yellow-500" />
           </p>
 
           <div className="flex items-center gap-2 mt-1">
@@ -62,7 +62,7 @@ const Sidebar = () => {
 
         {/* Learning Badges */}
         <div className="mb-4">
-          <p className="font-medium text-primary-400 mb-1">Learning Badge</p>
+          <p className="font-medium text-primary-600 mb-1">Learning Badge</p>
           <div className="flex flex-wrap gap-1">
             {BADGES.map((badge) => (
               <Badge key={badge} name={badge} />
@@ -72,7 +72,7 @@ const Sidebar = () => {
 
         {/* Topics */}
         <div>
-          <p className="font-medium text-primary-400 mb-1">
+          <p className="font-medium text-primary-600 mb-1">
             Topics of Interest
           </p>
 
