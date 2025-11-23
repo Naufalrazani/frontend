@@ -1,0 +1,5 @@
+.grainy-border {
+  border-radius: 0.75rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.06);
+  border: 2px solid rgb(229, 231, 235);
+}
