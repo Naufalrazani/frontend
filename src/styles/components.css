@@ -1,5 +1,27 @@
+/* Custom Border */
 .grainy-border {
   border-radius: 0.75rem;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.06);
   border: 2px solid rgb(229, 231, 235);
+}
+
+/* Style scrollbar (Chrome, Edge, Safari) */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: rgb(209, 213, 219);
+  border-radius: 8px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Firefox */
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(209, 213, 219) transparent;
 }

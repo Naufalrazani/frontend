@@ -33,26 +33,6 @@
     background-color: var(--color-primary-950);
   }
 
-  .bg-progress-400 {
-    background-color: var(--color-progress-400);
-  }
-  .bg-progress-500 {
-    background-color: var(--color-progress-500);
-  }
-  .bg-progress-600 {
-    background-color: var(--color-progress-600);
-  }
-
-  .bg-chart-400 {
-    background-color: var(--color-chart-400);
-  }
-  .bg-chart-500 {
-    background-color: var(--color-chart-500);
-  }
-  .bg-chart-600 {
-    background-color: var(--color-chart-600);
-  }
-
   .hover\:bg-primary-50:hover {
     background-color: var(--color-primary-50);
   }
@@ -87,13 +67,6 @@
     background-color: var(--color-primary-950);
   }
 
-  .hover\:bg-progress-500:hover {
-    background-color: var(--color-progress-500);
-  }
-  .hover\:bg-chart-500:hover {
-    background-color: var(--color-chart-500);
-  }
-
   .text-primary-50 {
     color: var(--color-primary-50);
   }
@@ -126,13 +99,6 @@
   }
   .text-primary-950 {
     color: var(--color-primary-950);
-  }
-
-  .text-progress-500 {
-    color: var(--color-progress-500);
-  }
-  .text-chart-500 {
-    color: var(--color-chart-500);
   }
 
   .hover\:text-primary-50:hover {
@@ -172,17 +138,17 @@
   .border-primary-100 {
     border-color: var(--color-primary-100);
   }
+  .border-primary-200 {
+    border-color: var(--color-primary-200);
+  }
+  .border-primary-300 {
+    border-color: var(--color-primary-300);
+  }
   .border-primary-500 {
     border-color: var(--color-primary-500);
   }
   .border-primary-700 {
     border-color: var(--color-primary-700);
-  }
-  .border-progress-500 {
-    border-color: var(--color-progress-500);
-  }
-  .border-chart-500 {
-    border-color: var(--color-chart-500);
   }
 
   .hover\:border-primary-100:hover {
