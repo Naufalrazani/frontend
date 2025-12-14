@@ -76,7 +76,6 @@ apiClient.interceptors.response.use(
         const response = await axios.put(`${BASE_URL}/authentications`, {
           refreshToken,
         });
-
         const newAccessToken = response.data.data.accessToken;
 
         updateAccessToken(newAccessToken);
