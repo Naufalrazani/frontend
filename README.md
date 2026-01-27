@@ -99,12 +99,35 @@ npm run preview
 ## 📂 Project Structure
 ```
 src/
-├── components/   # Reusable UI components (cards, charts, navigation)
-├── pages/        # Main application pages
-├── hooks/        # Custom React hooks
-├── services/     # API and data-fetching logic
-├── assets/       # Static assets (icons, images)
-└── utils/        # Helper functions
+├── app/
+│   ├── layouts/            # Layout utama aplikasi
+│   └── routes/             # Konfigurasi routing aplikasi
+│
+├── assets/
+│   └── img/                # Aset gambar (logo, avatar)
+│
+├── features/               # Feature-based modules
+│   ├── auth/               # Fitur autentikasi
+│   │   ├── components/     # Komponen UI autentikasi
+│   │   ├── context/        # Context API untuk auth
+│   │   ├── hooks/          # Custom hooks autentikasi
+│   │   ├── pages/          # Halaman login & register
+│   │   └── services/       # Service autentikasi & API
+│   │
+│   ├── dashboard/          # Halaman dan logic dashboard
+│   ├── insights/           # Fitur visualisasi learning insight
+│   └── mycourses/          # Fitur data course pengguna
+│
+├── shared/
+│   ├── components/         # Komponen global & reusable
+│   └── services/           # Shared services
+│
+├── styles/                 # Global styles & theme
+│
+├── utils/                  # Helper & utility functions
+│
+├── App.jsx                 # Root component
+└── main.jsx                # Entry point aplikasi
 ```
 
 ## 👥 Team
